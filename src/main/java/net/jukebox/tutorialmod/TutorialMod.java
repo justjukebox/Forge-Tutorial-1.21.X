@@ -2,6 +2,7 @@
 package net.jukebox.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.jukebox.tutorialmod.block.ModBlocks;
 import net.jukebox.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -34,6 +35,7 @@ public class TutorialMod {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
 
