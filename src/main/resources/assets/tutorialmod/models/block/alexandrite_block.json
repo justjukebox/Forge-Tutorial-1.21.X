@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cubeall",
+  "textures": {
+    "all": "tutorialmod:block/alexandrite_block"
+  }
+}

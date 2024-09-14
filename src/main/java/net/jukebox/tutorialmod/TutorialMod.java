@@ -55,6 +55,10 @@ public class TutorialMod {
         {
             event.accept(ModItems.ALEXANDRITE);
         }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
+        {
+            event.accept(ModBlocks.ALEXANDRITE_BLOCK);
+        }
 
     }
 

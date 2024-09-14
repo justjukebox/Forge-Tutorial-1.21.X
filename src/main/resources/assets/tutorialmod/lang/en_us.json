@@ -1,3 +1,5 @@
 {
-  "item.tutorialmod.alexandrite": "Alexandrite"
+  "item.tutorialmod.alexandrite": "Alexandrite",
+
+  "block.tutorialmod.alexandrite_block": "Block of Alexandrite"
 }
