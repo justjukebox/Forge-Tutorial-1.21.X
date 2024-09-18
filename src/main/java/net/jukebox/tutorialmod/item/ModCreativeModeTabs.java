@@ -32,6 +32,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) ->
                     {
                         output.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
+                        output.accept(ModBlocks.ALEXANDRITE_ORE.get());
                     })
                     .build());
 
