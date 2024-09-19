@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) ->
                     {
                         output.accept(ModItems.ALEXANDRITE.get());
+                        output.accept((ModItems.CHISEL.get()));
                     })
                     .build());
     public static final RegistryObject<CreativeModeTab> CRADLE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("cradle_blocks_tab",

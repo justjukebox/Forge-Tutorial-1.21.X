@@ -3,5 +3,8 @@
 
   "block.tutorialmod.alexandrite_block": "Block of Alexandrite",
 
-  "block.tutorialmod.alexandrite_ore": "Alexandrite Ore"
+  "block.tutorialmod.alexandrite_ore": "Alexandrite Ore",
+
+  "item.tutorialmod.chisel": "Chisel"
+
 }
